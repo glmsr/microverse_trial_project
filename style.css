@@ -1,0 +1,103 @@
+html{
+    scroll-behavior: smooth;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+body{
+    margin: 0%;
+}
+h1{
+    font-size: 70px;
+    align-items: center;
+    justify-content: center;
+}
+p{
+    font-size: 30px;
+}
+#navbar{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    gap: 20px;
+    position: fixed;
+    height: 70px;
+    background-color: #BC3046;
+    width: 100%;
+    border: 1px solid black;
+    font-size: 24px;
+    
+}
+a{
+    text-decoration: none;
+    color: white;
+    margin-right: 20px;
+}
+
+#welcome-section{
+    display: flex;
+    background-color: #2D2E31;
+    height: 100vh;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+#projects{
+    display: flex;
+    height: 150vh;
+    background-color: #46567C;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    flex-direction: column;
+}
+#projectContainer{
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 1201px;
+    height: 800px;
+    align-items: center;
+    justify-content: space-evenly;
+     
+}
+.projectName{
+    display:flex;
+    align-items:center;
+    justify-content: center;
+    background-color:#303841;
+    height: 50px;
+    border: 1px solid white;
+}
+
+#links{
+    display: flex;
+    height: 100vh;
+    background-color: #303841;
+    color: white;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#profile-link{
+    text-decoration: none;
+    color: white;
+}
+
+img{
+    height: 250px;
+}
+
+
+
+
+ @media (width: 568px) {
+    #projectContainer{
+        display: flex;
+        flex-wrap: wrap;
+        max-width: 1200px;
+        height: 800px;
+        align-items: center;
+        justify-content: space-evenly
+         
+    }
+}  
